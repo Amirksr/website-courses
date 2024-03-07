@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'lalezar';
+    src: url(/fonts/Lalezar-Regular.ttf);
+}
+@font-face {
+    font-family: 'vazir';
+    src: url(/fonts/Vazir.ttf);
+}
+body {
+    font-family: 'vazir' ,sans-serif;
+}
+.lalezar {
+    font-family: 'lalezar';
+}
+/* navbar */
+nav {
+    background: #f2f5fc;
+}
