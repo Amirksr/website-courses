@@ -16,3 +16,22 @@ body {
 nav {
     background: #f2f5fc;
 }
+@media screen and (min-width: 768px) {
+    .position-md-fixed {
+        position: fixed;
+    }
+}
+.course-list {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 0;
+}
+.course-list-item {
+  display: flex;
+  padding: 10px 15px;
+}
+.course-list-item:hover {
+    background-color: rgb(240, 240, 240);
+}
