@@ -35,3 +35,7 @@ nav {
 .course-list-item:hover {
     background-color: rgb(240, 240, 240);
 }
+.header {
+    background: url('../images/header/header-bg.png') top center no-repeat;
+    background-size: cover;
+}
