@@ -21,21 +21,30 @@ nav {
         position: fixed;
     }
 }
+/* collapsed courses */
 .course-list {
-  width: 300px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background: #fff;
-  padding: 10px 0;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px 0;
 }
 .course-list-item {
-  display: flex;
-  padding: 10px 15px;
+    display: flex;
+    padding: 10px 15px;
 }
 .course-list-item:hover {
     background-color: rgb(240, 240, 240);
 }
+/* intro */
 .header {
     background: url('../images/header/header-bg.png') top center no-repeat;
     background-size: cover;
+}
+/* courses section */
+.course-box {
+    transition: all 0.5s;
+}
+.course-box:hover {
+    transform: scale(1.05);
 }
