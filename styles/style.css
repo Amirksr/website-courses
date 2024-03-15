@@ -88,3 +88,7 @@ nav {
 .pricing-box:hover {
   transform: scale(1.05);
 }
+/* footer */
+footer {
+  background: #f2f5fc;
+}
