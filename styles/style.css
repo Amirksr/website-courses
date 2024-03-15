@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'lalezar';
-    src: url(/fonts/Lalezar-Regular.ttf);
+    src: url(../fonts/Lalezar-Regular.ttf);
 }
 @font-face {
     font-family: 'vazir';
-    src: url(/fonts/Vazir.ttf);
+    src: url(../fonts/Vazir.ttf);
 }
 body {
     font-family: 'vazir' ,sans-serif;
@@ -81,3 +81,10 @@ nav {
   .service-box:hover .read-more{
     color: white !important;
   }
+/* pricing */
+.pricing-box {
+  transition: all 0.5s;
+}
+.pricing-box:hover {
+  transform: scale(1.05);
+}
